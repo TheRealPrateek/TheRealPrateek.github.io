@@ -8,6 +8,16 @@
     font-size: 2em;
 }
 
+.about-section {
+    display: flex;
+    align-items: flex-start;
+}
+
+.prateek-photo {
+    width: 20%;
+    height: auto;
+}
+
 /* media queries */
 
 @media screen {
