@@ -10,14 +10,47 @@
     <title>Prateek Poddar</title>
 </head>
 <body>
-    <p>This will be your dev portfolio site. You're gonna kick ass and get that bread.</p>
-
-    <p>On one scrollable page, your site will contain:</p>
-    <ul>
-        <li>an about section</li>
-        <li>your resume, with a link to download a PDF copy</li>
-        <li>a list of your projects, with links</li>
-        <li>a contact section, with a link to directly email you</li>
-    </ul>
+    <nav class="nav">
+        <h3>Prateek Poddar</h3>
+        <!-- This ^ could be replaced with a logo in the future -->
+        <ul>
+            <li><a>About</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Resume</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </nav>
+    <header class="Prateek">
+        <h1>Prateek Poddar</h1>
+        <h3>Full-stack Web Developer</h3>
+    </header>
+    <article class="about">
+        <h2>About</h2>
+        <!-- this is the about section -->
+        <img src="/public/img/PP-2021-8-9-10.jpg" alt="A picture of Prateek Poddar.">
+        <p>Insert bio text here.</p>
+    </article>
+    <article class="projects">
+        <h2>Projects</h2>
+        <!-- this is the projects section -->
+        <!-- make sure to include live links -->
+        <h3><a>Guit-archive</a></h3>
+        <p>A full-stack web app dedicated to hosting and browsing guitar tabs completely for free.</p>
+    </article>
+    <article class="resume">
+        <h2>Resume</h2>
+        <!-- put your resume here -->
+        <object class="resume-display" data="/public/pdf/Developer Resume (1).pdf" type="application/pdf"></object>
+        <button>Download</button>
+    </article>
+    <article class="contact">
+        <h2>Contact me</h2>
+        <!-- make sure to include a link that allows people to directly email you-->
+        <ul>
+            <li>
+                <a class="dev-info-item" href="mailto:poddarp312@gmail.com">Email Address: poddarp312@gmail.com</a>
+            </li>
+        </ul>
+    </article>
 </body>
 </html>

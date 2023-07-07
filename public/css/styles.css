@@ -2,6 +2,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.Prateek {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
 /* media queries */
 
 @media screen {
