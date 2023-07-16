@@ -11,8 +11,6 @@
 </head>
 <body>
     <nav class="nav">
-        <h3>Prateek Poddar</h3>
-        <!-- This ^ could be replaced with a logo in the future -->
         <ul>
             <li><a>About</a></li>
             <li><a>Projects</a></li>
@@ -21,45 +19,44 @@
         </ul>
         <!-- add onClick methods using JS to make the links scroll to the different parts of the site -->
     </nav>
-    <header class="Prateek">
-        <h1>Prateek Poddar</h1>
-        <h3>Full-stack Web Developer</h3>
-    </header>
-    <h2>About</h2>
-    <article class="about-section">
-        <!-- this is the about section -->
-        <img class="prateek-photo" src="/public/img/PP-2021-8-9-10.jpg" alt="A picture of Prateek Poddar.">
-        <p>Full-stack developer with a background in psychology and the arts. Detail oriented with a passion for efficient, interconnected code. Always ready to learn and eager to collaborate with a dynamic development team.</p>
-    </article>
-    <article class="projects">
+    <div class="container">
+        <header class="Prateek">
+            <h1>Prateek Poddar</h1>
+            <h3>Full-stack Web Developer</h3>
+        </header>
+        <h2>About</h2>
+        <article class="about-section">
+            <!-- this is the about section -->
+            <img class="prateek-photo" src="/public/img/PP-2021-8-9-10.jpg" alt="A picture of Prateek Poddar.">
+            <p>Full-stack developer with a background in psychology and the arts. Detail oriented with a passion for efficient, interconnected code. Always ready to learn and eager to collaborate with a dynamic development team. When I'm not coding, I'm either playing music or video games.</p>
+        </article>
         <h2>Projects</h2>
-        <!-- this is the projects section -->
-        <!-- make sure to include live links -->
-        <h3><a href="https://lazy-rose-crow-ring.cyclic.app/">Guit-archive</a></h3>
-        <p>A full-stack web app dedicated to hosting and browsing guitar tabs completely for free. <a href="https://github.com/TheRealPrateek/guitarchive/tree/main">Check it out on GitHub.</a></p>
-    </article>
-    <article class="resume">
+        <article class="projects">
+            <!-- this is the projects section -->
+            <!-- make sure to include live links -->
+            <h3><a href="https://lazy-rose-crow-ring.cyclic.app/">Guit-archive</a></h3>
+            <p>A full-stack web app dedicated to hosting and browsing guitar tabs completely for free. <a href="https://github.com/TheRealPrateek/guitarchive/tree/main">Check it out on GitHub.</a></p>
+        </article>
         <h2>Resume</h2>
-        <!-- put your resume here -->
-        <object class="resume-display" data="/public/pdf/Developer Resume (1).pdf" type="application/pdf"></object>
-        <p>
-            <button>Download</button>
-        </p>
-    </article>
-    <article class="contact">
+        <article class="resume">
+            <object class="resume-display" data="/public/pdf/Developer Resume (1).pdf" type="application/pdf"></object>
+            <button class="download-button">Download</button>
+        </article>
         <h2>Contact me</h2>
-        <!-- make sure to include a link that allows people to directly email you-->
-        <ul>
-            <li>
-                <a class="dev-info-item" href="mailto:poddarp312@gmail.com">Email Address: poddarp312@gmail.com</a>
-            </li>
-            <li>
-                <a class="dev-info-item" href="https://www.linkedin.com/in/prateekpoddar/">Connect with me on LinkedIn.</a>
-            </li>
-            <li>
-                <a class="dev-info-item" href="https://github.com/TheRealPrateek">Connect with me on GitHub.</a>
-            </li>
-        </ul>
-    </article>
+        <article class="contact">
+            <!-- make sure to include a link that allows people to directly email you-->
+            <ul class="contact-list">
+                <li>
+                    <a class="dev-info-item" href="mailto:poddarp312@gmail.com">Email Address: poddarp312@gmail.com</a>
+                </li>
+                <li>
+                    <a class="dev-info-item" href="https://www.linkedin.com/in/prateekpoddar/">Connect with me on LinkedIn.</a>
+                </li>
+                <li>
+                    <a class="dev-info-item" href="https://github.com/TheRealPrateek">Connect with me on GitHub.</a>
+                </li>
+            </ul>
+        </article>
+    </div>
 </body>
 </html>

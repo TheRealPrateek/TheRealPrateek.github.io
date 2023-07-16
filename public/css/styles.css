@@ -2,8 +2,35 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5em;
+    list-style: none;
+}
+
 .Prateek {
     display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
     text-align: center;
     font-size: 2em;
 }
@@ -13,9 +40,41 @@
     align-items: flex-start;
 }
 
+.about-section p {
+    margin-left: 5%;
+    margin-right: 5%
+}
+
 .prateek-photo {
-    width: 20%;
+    width: 30%;
     height: auto;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-display {
+    width: 100%;
+    height: 50rem;
+}
+
+.download-button {
+    width: 20rem;
+    height: auto;
+    margin: 5%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.contact-list {
+    list-style: none;
 }
 
 /* media queries */
