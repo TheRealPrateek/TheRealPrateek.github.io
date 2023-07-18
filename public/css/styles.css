@@ -4,7 +4,7 @@
 
 .nav {
     width: 90%;
-    margin: auto;
+    margin: 2% auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,13 +41,17 @@ h2 {
 }
 
 .about-section p {
-    margin-left: 5%;
-    margin-right: 5%
+    margin: 2% 5%;
+
 }
 
 .prateek-photo {
-    width: 30%;
+    width: 40%;
     height: auto;
+}
+
+.projects {
+    text-align: center;
 }
 
 .resume {
@@ -62,8 +66,8 @@ h2 {
 }
 
 .download-button {
-    width: 20rem;
-    height: auto;
+    font-size: 1.5em;
+    padding: .5em 1em;
     margin: 5%;
 }
 
@@ -75,6 +79,7 @@ h2 {
 
 .contact-list {
     list-style: none;
+    text-align: center;
 }
 
 /* media queries */
