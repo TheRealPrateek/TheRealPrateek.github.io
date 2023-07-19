@@ -7,17 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
+    <script defer src="/public/js/scripts.js"></script>
     <title>Prateek Poddar</title>
 </head>
 <body>
     <nav class="nav">
         <ul>
             <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a onclick="projects()">Projects</a></li>
+            <li><a onclick="resume()">Resume</a></li>
+            <li><a onclick="contactMe()">Contact</a></li>
         </ul>
-        <!-- add onClick methods using JS to make the links scroll to the different parts of the site -->
     </nav>
     <div class="container">
         <header class="Prateek">
@@ -28,7 +28,7 @@
         <article class="about-section">
             <img class="prateek-photo" src="/public/img/PP-2021-8-9-24.jpg" alt="A picture of Prateek Poddar.">
             <article class="synopsis">
-                <p>I'm a full-stack developer with a background in psychology and the arts. Prior to tech, my experience has bridged fields from picture framing to being a full-time singer and songwriter. As a result, I'm a detail-oriented programmer with a passion for efficiency.</p>
+                <p>I'm a full-stack developer with a background in psychology and the arts. Prior to tech, my experience has bridged fields from picture framing to being a full-time singer and songwriter. As a result, I'm a detail-oriented person with a passion for efficiency and creating things that people can actually use in their everyday lives, whether it's a favorite song, a beautifully framed family photo, or an easy-to-use web app.</p>
                 <p>I graduated from CodeSquad Boston in 2023 with a certificate in full-stack web development. My technical skills include fluency in JavaScript, React, EJS, Node.js, MongoDB, GoogleOAuth, HTML, CSS, and Git. </p>
                 <p>When I'm not coding, I'm either playing music or playing video-games. My main instruments are guitar and voice, and I'm always down to jam or sing with friends. I also enjoy working on the hardware side of computers too - I completed my first PC build in 2021.</p>
             </article>
@@ -41,11 +41,12 @@
         <h2>Resume</h2>
         <article class="resume">
             <object class="resume-display" data="/public/pdf/Developer Resume (1).pdf" type="application/pdf"></object>
-            <button class="download-button">Download</button>
+            <p>
+                <a href="/public/pdf/Developer Resume (1).pdf" download><button class="download-button">Download</button></a>
+            </p>
         </article>
         <h2>Contact me</h2>
         <article class="contact">
-            <!-- make sure to include a link that allows people to directly email you-->
             <ul class="contact-list">
                 <li>
                     <a class="dev-info-item" href="mailto:poddarp312@gmail.com">Email Address: poddarp312@gmail.com</a>
