@@ -35,7 +35,12 @@
     margin: auto;
 }
 
-h2 {
+.subheading {
+    text-align: center;
+    font-size: .95em;
+}
+
+.section-heading {
     text-align: center;
     font-size: 2em;
 }
