@@ -13,10 +13,10 @@
 <body>
     <nav class="nav">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a onclick="projects()">Projects</a></li>
-            <li><a onclick="resume()">Resume</a></li>
-            <li><a onclick="contactMe()">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <div class="container">
@@ -24,7 +24,9 @@
             <h1>Prateek Poddar</h1>
             <h3>Full-stack Web Developer</h3>
         </header>
+        <br id="about">
         <h2>About</h2>
+        <br>
         <article class="about-section">
             <img class="prateek-photo" src="/public/img/PP-2021-8-9-24.jpg" alt="A picture of Prateek Poddar.">
             <article class="synopsis">
@@ -33,20 +35,27 @@
                 <p>When I'm not coding, I'm either playing music or playing video-games. My main instruments are guitar and voice, and I'm always down to jam or sing with friends. I also enjoy working on the hardware side of computers too - I completed my first PC build in 2021.</p>
             </article>
         </article>
+        <br id="projects">
         <h2>Projects</h2>
+        <br>
         <article class="projects">
             <h3><a href="https://lazy-rose-crow-ring.cyclic.app/">Guit-archive</a></h3>
             <p>A full-stack web app dedicated to hosting and browsing guitar tabs completely for free. <a href="https://github.com/TheRealPrateek/guitarchive/tree/main">Check it out on GitHub.</a></p>
         </article>
+        <br id="resume">
         <h2>Resume</h2>
+        <br>
         <article class="resume">
             <object class="resume-display" data="/public/pdf/Developer Resume (1).pdf" type="application/pdf"></object>
+            <br>
             <p>
                 <a href="/public/pdf/Developer Resume (1).pdf" download><button class="download-button">Download</button></a>
             </p>
         </article>
+        <br>
         <h2>Contact me</h2>
-        <article class="contact">
+        <br>
+        <article class="contact" id="contact">
             <ul class="contact-list">
                 <li>
                     <a class="dev-info-item" href="mailto:poddarp312@gmail.com">Email Address: poddarp312@gmail.com</a>
