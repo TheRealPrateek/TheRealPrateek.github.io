@@ -48,15 +48,18 @@
 .about-section {
     display: flex;
     align-items: flex-start;
+    flex-direction: row;
 }
 
-.about-section p {
-    margin: 2% 5%;
-
+.synopsis {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .prateek-photo {
-    width: 40%;
+    width: 30em;
     height: auto;
 }
 
@@ -72,7 +75,7 @@
 
 .resume-display {
     width: 100%;
-    height: 50rem;
+    height: 50em;
 }
 
 .download-button {
@@ -94,14 +97,91 @@
 
 /* media queries */
 
-@media screen {
-    
+@media screen and (max-width: 320px) {
+    .prateek-photo {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .about-section {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .resume-display {
+        width: 100%;
+        height: 20em;
+    }
 }
 
-@media screen {
-    
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .prateek-photo {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .about-section {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .resume-display {
+        width: 100%;
+        height: 20em;
+    }
 }
 
-@media screen {
-    
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .prateek-photo {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .about-section {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .resume-display {
+        width: 100%;
+        height: 20em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .prateek-photo {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .about-section {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px ){
+    .prateek-photo {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .about-section {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+    .prateek-photo {
+        width: 35em;
+        height: auto;
+        margin: auto;
+    }
+
+    .synopsis {
+        font-size: .90em;
+    }
 }
