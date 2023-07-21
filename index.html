@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
     <script defer src="/public/js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/32a0eb039b.js" crossorigin="anonymous"></script>
     <title>Prateek Poddar</title>
 </head>
 <body>
@@ -18,7 +19,25 @@
             <li><a href="#resume">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="hburg-menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </nav>
+    <ul class="menu">
+        <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
+        <li>
+            <a class="menuItem" href="#about">About</a>
+        </li>
+        <li>
+            <a class="menuItem" href="#projects">Projects</a>
+        </li>
+        <li>
+            <a class="menuItem" href="#resume">Resume</a>
+        </li>
+        <li>
+            <a class="menuItem" href="#contact">Contact</a>
+        </li>
+    </ul>
     <div class="container">
         <header class="Prateek">
             <h1>Prateek Poddar</h1>

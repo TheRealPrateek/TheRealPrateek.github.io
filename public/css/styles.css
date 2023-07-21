@@ -23,6 +23,38 @@
     list-style: none;
 }
 
+.hburg-menu {
+    display: none;
+    font-size: 2rem;
+}
+
+.hburg-menu:hover, .fa-xmark:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    list-style: none;
+    padding-top: 3%;
+    background-color: white;
+}
+
+.menuItem {
+    display: none;
+    margin: 2rem 4rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: right;
+}
+
 .Prateek {
     margin-top: 5em;
     display: block;
@@ -98,6 +130,46 @@
 /* media queries */
 
 @media screen and (max-width: 320px) {
+    .container {
+        padding: 5%;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 3%;
+        left: 60%;
+        background-color: white;
+    }
+
+    .menuItem {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
     .prateek-photo {
         width: 90%;
         height: auto;
@@ -115,6 +187,46 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
+    .container {
+        padding: 5%;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 3%;
+        left: 60%;
+        background-color: white;
+    }
+
+    .menuItem {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
     .prateek-photo {
         width: 90%;
         height: auto;
@@ -127,11 +239,51 @@
     }
     .resume-display {
         width: 100%;
-        height: 20em;
+        height: 30em;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        padding: 5%;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 3%;
+        left: 65%;
+        background-color: white;
+    }
+
+    .menuItem {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
     .prateek-photo {
         width: 90%;
         height: auto;
@@ -144,11 +296,50 @@
     }
     .resume-display {
         width: 100%;
-        height: 20em;
+        height: 30em;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 5%;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: end;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .hburg-menu {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 3%;
+        left: 75%;
+        background-color: white;
+    }
+
+    .menuItem {
+        display: block;
+    }
+
+    .fa-xmark {
+        font-size: 2.5em;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
     .prateek-photo {
         width: 90%;
         height: auto;
