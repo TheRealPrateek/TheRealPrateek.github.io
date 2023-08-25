@@ -28,6 +28,7 @@
 .hburg-menu {
     display: none;
     font-size: 2rem;
+    padding: 3%;
 }
 
 .hburg-menu:hover, .fa-xmark:hover {
