@@ -39,6 +39,11 @@
     cursor: pointer;
 }
 
+.fa-xmark {
+    font-size: 2rem;
+    padding: 3%;
+}
+
 .menu {
     display: none;
     position: fixed;
@@ -48,7 +53,7 @@
     right: 0;
     z-index: 99;
     list-style: none;
-    padding-top: 3%;
+    padding: 3%;
     background-color: white;
 }
 
@@ -163,7 +168,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        left: 55%;
         background-color: white;
     }
 
@@ -219,7 +223,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        left: 55%;
         background-color: white;
     }
 
@@ -275,8 +278,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        padding-right: 3%;
-        left: 65%;
         background-color: white;
     }
 
@@ -331,8 +332,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        padding-right: 3%;
-        left: 75%;
         background-color: white;
     }
 
