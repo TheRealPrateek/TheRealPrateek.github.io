@@ -31,10 +31,6 @@
     padding: 3%;
 }
 
-.fa-xmark {
-    padding: 3%;
-}
-
 .hburg-menu:hover, .fa-xmark:hover {
     cursor: pointer;
 }
