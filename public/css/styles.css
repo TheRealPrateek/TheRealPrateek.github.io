@@ -198,8 +198,7 @@
         border: none;
     }
     .resume-display {
-        width: 100%;
-        height: 20em;
+        display: none;
     }
 }
 
@@ -260,8 +259,7 @@
         border: none;
     }
     .resume-display {
-        width: 100%;
-        height: 30em;
+        display: none;
     }
 }
 
