@@ -389,9 +389,6 @@
         align-items: flex-start;
         flex-direction: column;
     }
-    .synopsis {
-        margin-top: 2%;
-    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1350px) {
