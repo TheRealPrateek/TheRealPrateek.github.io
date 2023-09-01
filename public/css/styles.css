@@ -380,6 +380,10 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px ){
+    .Prateek {
+        margin-top: 8em;
+    }
+
     .prateek-photo {
         width: 90%;
         height: auto;
@@ -393,6 +397,10 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1350px) {
+    .Prateek {
+        margin-top: 8em;
+    }
+
     .prateek-photo {
         width: 35em;
         height: auto;
@@ -406,6 +414,10 @@
 }
 
 @media screen and (min-width: 1351px) {
+    .Prateek {
+        margin-top: 8em;
+    }
+
     .synopsis {
         margin-left: 3%;
     }
