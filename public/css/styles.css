@@ -4,11 +4,11 @@
 
 .nav {
     width: 100%;
-    padding: 2%;
-    padding-right: 4%;
     box-sizing: border-box;
-    margin: auto;
+    padding: 2% 5% 2% 2%;
+    /* remember - margin and padding order is always: top right bottom left */
     top: 0;
+    left: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,13 +16,14 @@
     position: fixed;
 }
 
-.nav ul {
+.nav-bar {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.5em;
     list-style: none;
+    margin-left: 0;
 }
 
 .hburg-menu {
@@ -154,7 +155,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
@@ -215,7 +216,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
@@ -276,7 +277,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
@@ -337,7 +338,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
