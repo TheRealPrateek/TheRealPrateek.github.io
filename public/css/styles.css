@@ -135,6 +135,8 @@
 
 .contact-list {
     list-style: none;
+    text-align: center;
+    padding: 0;
 }
 
 /* media queries */
@@ -179,7 +181,7 @@
         transform: translateY(0);
     }
     .prateek-photo {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -187,6 +189,13 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        border: none;
+    }
+    .synopsis {
+        margin-top: 10%;
+    }
+    .projects {
+        border: none;
     }
     .resume-display {
         width: 100%;
@@ -234,7 +243,7 @@
         transform: translateY(0);
     }
     .prateek-photo {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -242,6 +251,13 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        border: none;
+    }
+    .synopsis {
+        margin-top: 10%;
+    }
+    .projects {
+        border: none;
     }
     .resume-display {
         width: 100%;
@@ -289,7 +305,7 @@
         transform: translateY(0);
     }
     .prateek-photo {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -297,6 +313,13 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        border: none;
+    }
+    .synopsis {
+        margin-top: 10%;
+    }
+    .projects {
+        border: none;
     }
     .resume-display {
         width: 100%;
@@ -345,12 +368,15 @@
     .prateek-photo {
         width: 90%;
         height: auto;
-        margin: auto;
+        margin: 5%;
     }
     .about-section {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+    }
+    .synopsis {
+        margin-top: 2%;
     }
 }
 
