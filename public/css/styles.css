@@ -92,7 +92,6 @@
 }
 
 .synopsis {
-    margin-left: 3%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -101,6 +100,7 @@
 .prateek-photo {
     width: 30em;
     height: auto;
+    margin: auto;
 }
 
 .projects {
@@ -382,12 +382,15 @@
     .prateek-photo {
         width: 90%;
         height: auto;
-        margin: auto;
+        margin: 5%;
     }
     .about-section {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+    }
+    .synopsis {
+        margin-top: 2%;
     }
 }
 
@@ -400,5 +403,12 @@
 
     .synopsis {
         font-size: .90em;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (min-width: 1351px) {
+    .synopsis {
+        margin-left: 3%;
     }
 }
