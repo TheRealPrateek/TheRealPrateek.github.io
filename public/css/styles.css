@@ -41,6 +41,10 @@
     padding: 3%;
 }
 
+#about, #projects, #resume, #contact {
+    scroll-margin-top: 15em;
+}
+
 .menu {
     display: none;
     position: fixed;
