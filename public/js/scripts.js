@@ -11,3 +11,10 @@ function toggleMenu() {
     menuIcon.style.display = "none";
   }
 };
+
+window.onscroll = function removeMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    menuIcon.style.display = "block";
+  }
+};

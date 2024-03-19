@@ -4,11 +4,11 @@
 
 .nav {
     width: 100%;
-    padding: 2%;
-    padding-right: 4%;
     box-sizing: border-box;
-    margin: auto;
+    padding: 2% 5% 2% 2%;
+    /* remember - margin and padding order is always: top right bottom left */
     top: 0;
+    left: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,22 +16,33 @@
     position: fixed;
 }
 
-.nav ul {
+.nav-bar {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.5em;
     list-style: none;
+    margin-left: 0;
 }
 
 .hburg-menu {
     display: none;
     font-size: 2rem;
+    padding: 3%;
 }
 
 .hburg-menu:hover, .fa-xmark:hover {
     cursor: pointer;
+}
+
+.fa-xmark {
+    font-size: 2rem;
+    padding: 3%;
+}
+
+#about, #projects, #resume, #contact {
+    scroll-margin-top: 15em;
 }
 
 .menu {
@@ -40,12 +51,10 @@
     transform: translateY(-200%);
     transition: transform 0.3s;
     top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
     z-index: 99;
     list-style: none;
-    padding-top: 3%;
+    padding: 3%;
     background-color: white;
 }
 
@@ -83,10 +92,11 @@
     display: flex;
     align-items: flex-start;
     flex-direction: row;
+    border: solid black 3px;
+    padding: 5%;
 }
 
 .synopsis {
-    margin: 0 5%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -95,10 +105,13 @@
 .prateek-photo {
     width: 30em;
     height: auto;
+    margin: auto;
 }
 
 .projects {
     text-align: center;
+    border: solid black 3px;
+    padding: 3%;
 }
 
 .resume {
@@ -127,6 +140,8 @@
 
 .contact-list {
     list-style: none;
+    text-align: center;
+    padding: 0;
 }
 
 /* media queries */
@@ -144,7 +159,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
@@ -156,8 +171,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        padding-right: 3%;
-        left: 60%;
         background-color: white;
     }
 
@@ -173,7 +186,7 @@
         transform: translateY(0);
     }
     .prateek-photo {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -181,10 +194,16 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        border: none;
+    }
+    .synopsis {
+        margin-top: 10%;
+    }
+    .projects {
+        border: none;
     }
     .resume-display {
-        width: 100%;
-        height: 20em;
+        display: none;
     }
 }
 
@@ -201,7 +220,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
@@ -213,8 +232,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        padding-right: 3%;
-        left: 60%;
         background-color: white;
     }
 
@@ -230,7 +247,7 @@
         transform: translateY(0);
     }
     .prateek-photo {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -238,10 +255,16 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        border: none;
+    }
+    .synopsis {
+        margin-top: 10%;
+    }
+    .projects {
+        border: none;
     }
     .resume-display {
-        width: 100%;
-        height: 30em;
+        display: none;
     }
 }
 
@@ -258,7 +281,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
@@ -270,8 +293,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        padding-right: 3%;
-        left: 65%;
         background-color: white;
     }
 
@@ -287,7 +308,7 @@
         transform: translateY(0);
     }
     .prateek-photo {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -295,6 +316,13 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+        border: none;
+    }
+    .synopsis {
+        margin-top: 10%;
+    }
+    .projects {
+        border: none;
     }
     .resume-display {
         width: 100%;
@@ -314,7 +342,7 @@
         padding: 1.5rem;
     }
 
-    .nav ul {
+    .nav-bar {
         display: none;
     }
 
@@ -326,8 +354,6 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        padding-right: 3%;
-        left: 75%;
         background-color: white;
     }
 
@@ -345,20 +371,27 @@
     .prateek-photo {
         width: 90%;
         height: auto;
-        margin: auto;
+        margin: 5%;
     }
     .about-section {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
     }
+    .synopsis {
+        margin-top: 2%;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px ){
+    .Prateek {
+        margin-top: 8em;
+    }
+
     .prateek-photo {
         width: 90%;
         height: auto;
-        margin: auto;
+        margin: 5%;
     }
     .about-section {
         display: flex;
@@ -368,6 +401,10 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1350px) {
+    .Prateek {
+        margin-top: 8em;
+    }
+
     .prateek-photo {
         width: 35em;
         height: auto;
@@ -376,5 +413,16 @@
 
     .synopsis {
         font-size: .90em;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (min-width: 1351px) {
+    .Prateek {
+        margin-top: 8em;
+    }
+
+    .synopsis {
+        margin-left: 3%;
     }
 }
